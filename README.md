@@ -17,6 +17,7 @@ npm run dev
 
 ## Before starting
 ```bash
+php artisan migrate
 php artisan db:seed --class=UserSeeder
 ```
 
